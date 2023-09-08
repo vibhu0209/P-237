@@ -1,0 +1,15 @@
+import turtle
+a = turtle.Turtle()
+a.color("#00ff96","#9600ff")
+a.speed(0)
+a.penup()
+a.right(90)
+a.forward(275)
+a.left(90)
+a.pendown()
+a.pendown()
+r = 0.1
+n = 1000000000000000000000000000000
+a.speed(0)
+for i in range(1, n + 1, 1):
+    a.circle(r * i)
